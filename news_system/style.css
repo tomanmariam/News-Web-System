@@ -1,0 +1,186 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: right;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+.message, .error {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.message {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+
+/* حاوية العنوان والصورة */
+.news-title-container {
+    display: flex;         /* استخدام Flexbox لترتيب العناصر بجانب بعضها */
+    align-items: center;   /* محاذاة العناصر عمودياً في المنتصف */
+    gap: 15px;             /* إضافة مسافة فاصلة بين الصورة والنص */
+}
+
+/* تنسيق الصورة المصغرة بجانب العنوان */
+.news-thumbnail {
+    width: 80px;           /* عرض أصغر للصورة */
+    height: 50px;          /* ارتفاع أصغر */
+    object-fit: cover;     /* للحفاظ على أبعاد الصورة */
+    border-radius: 4px;
+    flex-shrink: 0;        /* منع الصورة من التقلص إذا كان العنوان طويلاً */
+}
+
+/* توسيط المحتوى في جميع خلايا الجدول عمودياً */
+table td {
+    vertical-align: middle;
+}
+
+
+/* حاوية العنوان والصورة */
+.news-title-container {
+    display: flex;         /* استخدام Flexbox لترتيب العناصر بجانب بعضها */
+    align-items: center;   /* محاذاة العناصر عمودياً في المنتصف */
+    gap: 15px;             /* إضافة مسافة فاصلة بين الصورة والنص */
+}
+
+/* تنسيق الصورة المصغرة بجانب العنوان */
+.news-thumbnail {
+    width: 80px;           /* عرض أصغر للصورة */
+    height: 50px;          /* ارتفاع أصغر */
+    object-fit: cover;     /* للحفاظ على أبعاد الصورة */
+    border-radius: 4px;
+    flex-shrink: 0;        /* منع الصورة من التقلص إذا كان العنوان طويلاً */
+}
+
+/* توسيط المحتوى في جميع خلايا الجدول عمودياً */
+table td {
+    vertical-align: middle;
+}
+
+
